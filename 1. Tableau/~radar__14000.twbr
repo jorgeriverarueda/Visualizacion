@@ -1,0 +1,2266 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20204.21.0114.0916                               -->
+<workbook source-build='2020.4.1 (20204.21.0114.0916)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='ALL MEDALISTS (Summer_Olympic_medallists_1896-2008)' inline='true' name='federated.19vroau05p3c5s17qp8t80ful9jk' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Summer_Olympic_medallists_1896-2008' name='excel-direct.17g7hx81wo0v0k1dmgg9s0md96zf'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/Downloads/Summer_Olympic_medallists_1896-2008.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.17g7hx81wo0v0k1dmgg9s0md96zf' name='ALL MEDALISTS' table='[&apos;ALL MEDALISTS$&apos;]' type='table'>
+          <columns gridOrigin='A1:J10001:no:A1:J10001:0' header='yes' outcome='6'>
+            <column datatype='string' name='City' ordinal='0' />
+            <column datatype='integer' name='Edition' ordinal='1' />
+            <column datatype='string' name='Sport' ordinal='2' />
+            <column datatype='string' name='Discipline' ordinal='3' />
+            <column datatype='string' name='Athlete' ordinal='4' />
+            <column datatype='string' name='NOC' ordinal='5' />
+            <column datatype='string' name='Gender' ordinal='6' />
+            <column datatype='string' name='Event' ordinal='7' />
+            <column datatype='string' name='Event_gender' ordinal='8' />
+            <column datatype='string' name='Medal' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.17g7hx81wo0v0k1dmgg9s0md96zf' name='ALL MEDALISTS' table='[&apos;ALL MEDALISTS$&apos;]' type='table'>
+          <columns gridOrigin='A1:J10001:no:A1:J10001:0' header='yes' outcome='6'>
+            <column datatype='string' name='City' ordinal='0' />
+            <column datatype='integer' name='Edition' ordinal='1' />
+            <column datatype='string' name='Sport' ordinal='2' />
+            <column datatype='string' name='Discipline' ordinal='3' />
+            <column datatype='string' name='Athlete' ordinal='4' />
+            <column datatype='string' name='NOC' ordinal='5' />
+            <column datatype='string' name='Gender' ordinal='6' />
+            <column datatype='string' name='Event' ordinal='7' />
+            <column datatype='string' name='Event_gender' ordinal='8' />
+            <column datatype='string' name='Medal' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ALL MEDALISTS]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:J10001:no:A1:J10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[ALL MEDALISTS]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL MEDALISTS_6A267F9A3A6640E9ADAEE9E23024267D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Edition</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Edition]</local-name>
+            <parent-name>[ALL MEDALISTS]</parent-name>
+            <remote-alias>Edition</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL MEDALISTS_6A267F9A3A6640E9ADAEE9E23024267D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sport</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sport]</local-name>
+            <parent-name>[ALL MEDALISTS]</parent-name>
+            <remote-alias>Sport</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL MEDALISTS_6A267F9A3A6640E9ADAEE9E23024267D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Discipline</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Discipline]</local-name>
+            <parent-name>[ALL MEDALISTS]</parent-name>
+            <remote-alias>Discipline</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL MEDALISTS_6A267F9A3A6640E9ADAEE9E23024267D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Athlete</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Athlete]</local-name>
+            <parent-name>[ALL MEDALISTS]</parent-name>
+            <remote-alias>Athlete</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL MEDALISTS_6A267F9A3A6640E9ADAEE9E23024267D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NOC</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[NOC]</local-name>
+            <parent-name>[ALL MEDALISTS]</parent-name>
+            <remote-alias>NOC</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL MEDALISTS_6A267F9A3A6640E9ADAEE9E23024267D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[ALL MEDALISTS]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL MEDALISTS_6A267F9A3A6640E9ADAEE9E23024267D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Event</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Event]</local-name>
+            <parent-name>[ALL MEDALISTS]</parent-name>
+            <remote-alias>Event</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL MEDALISTS_6A267F9A3A6640E9ADAEE9E23024267D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Event_gender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Event_gender]</local-name>
+            <parent-name>[ALL MEDALISTS]</parent-name>
+            <remote-alias>Event_gender</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL MEDALISTS_6A267F9A3A6640E9ADAEE9E23024267D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Medal</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Medal]</local-name>
+            <parent-name>[ALL MEDALISTS]</parent-name>
+            <remote-alias>Medal</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ALL MEDALISTS_6A267F9A3A6640E9ADAEE9E23024267D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Event gender' datatype='string' name='[Event_gender]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='ALL MEDALISTS' datatype='table' name='[__tableau_internal_object_id__].[ALL MEDALISTS_6A267F9A3A6640E9ADAEE9E23024267D]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;España&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='ALL MEDALISTS' id='ALL MEDALISTS_6A267F9A3A6640E9ADAEE9E23024267D'>
+            <properties context=''>
+              <relation connection='excel-direct.17g7hx81wo0v0k1dmgg9s0md96zf' name='ALL MEDALISTS' table='[&apos;ALL MEDALISTS$&apos;]' type='table'>
+                <columns gridOrigin='A1:J10001:no:A1:J10001:0' header='yes' outcome='6'>
+                  <column datatype='string' name='City' ordinal='0' />
+                  <column datatype='integer' name='Edition' ordinal='1' />
+                  <column datatype='string' name='Sport' ordinal='2' />
+                  <column datatype='string' name='Discipline' ordinal='3' />
+                  <column datatype='string' name='Athlete' ordinal='4' />
+                  <column datatype='string' name='NOC' ordinal='5' />
+                  <column datatype='string' name='Gender' ordinal='6' />
+                  <column datatype='string' name='Event' ordinal='7' />
+                  <column datatype='string' name='Event_gender' ordinal='8' />
+                  <column datatype='string' name='Medal' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='fifa18_clean' inline='true' name='federated.0sfgfa916risy014cssob1awfl4i' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='fifa18_clean' name='textscan.1qy9ns21ymkicz1cajka9123xci1'>
+            <connection class='textscan' directory='Data/Downloads' filename='fifa18_clean.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='radar' name='textscan.0knh7fh09xrq2u1f8ltxr1uvd1kc'>
+            <connection class='textscan' directory='Data/Downloads' filename='radar.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='radar_new' name='textscan.14c4ldo0a1lfkj1acply9100aesp'>
+            <connection class='textscan' directory='Data/Desktop/Carrera/Master/Segundo/Visulaizacion/Practicas/fifa' filename='radar_new.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1qy9ns21ymkicz1cajka9123xci1' name='fifa18_clean.csv' table='[fifa18_clean#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_ES' separator=','>
+            <column datatype='integer' name='Wage (€)' ordinal='0' />
+            <column datatype='integer' name='Value (€)' ordinal='1' />
+            <column datatype='string' name='Name' ordinal='2' />
+            <column datatype='integer' name='Age' ordinal='3' />
+            <column datatype='string' name='Photo' ordinal='4' />
+            <column datatype='string' name='Nationality' ordinal='5' />
+            <column datatype='string' name='Flag' ordinal='6' />
+            <column datatype='integer' name='Overall' ordinal='7' />
+            <column datatype='integer' name='Potential' ordinal='8' />
+            <column datatype='string' name='Club' ordinal='9' />
+            <column datatype='string' name='Club Logo' ordinal='10' />
+            <column datatype='integer' name='Special' ordinal='11' />
+            <column datatype='integer' name='Acceleration' ordinal='12' />
+            <column datatype='integer' name='Aggression' ordinal='13' />
+            <column datatype='integer' name='Agility' ordinal='14' />
+            <column datatype='integer' name='Balance' ordinal='15' />
+            <column datatype='integer' name='Ball control' ordinal='16' />
+            <column datatype='integer' name='Composure' ordinal='17' />
+            <column datatype='integer' name='Crossing' ordinal='18' />
+            <column datatype='integer' name='Curve' ordinal='19' />
+            <column datatype='integer' name='Dribbling' ordinal='20' />
+            <column datatype='integer' name='Finishing' ordinal='21' />
+            <column datatype='integer' name='Free kick accuracy' ordinal='22' />
+            <column datatype='integer' name='GK diving' ordinal='23' />
+            <column datatype='integer' name='GK handling' ordinal='24' />
+            <column datatype='integer' name='GK kicking' ordinal='25' />
+            <column datatype='integer' name='GK positioning' ordinal='26' />
+            <column datatype='integer' name='GK reflexes' ordinal='27' />
+            <column datatype='integer' name='Heading accuracy' ordinal='28' />
+            <column datatype='integer' name='Interceptions' ordinal='29' />
+            <column datatype='integer' name='Jumping' ordinal='30' />
+            <column datatype='integer' name='Long passing' ordinal='31' />
+            <column datatype='integer' name='Long shots' ordinal='32' />
+            <column datatype='integer' name='Marking' ordinal='33' />
+            <column datatype='integer' name='Penalties' ordinal='34' />
+            <column datatype='integer' name='Positioning' ordinal='35' />
+            <column datatype='integer' name='Reactions' ordinal='36' />
+            <column datatype='integer' name='Short passing' ordinal='37' />
+            <column datatype='integer' name='Shot power' ordinal='38' />
+            <column datatype='integer' name='Sliding tackle' ordinal='39' />
+            <column datatype='integer' name='Sprint speed' ordinal='40' />
+            <column datatype='integer' name='Stamina' ordinal='41' />
+            <column datatype='integer' name='Standing tackle' ordinal='42' />
+            <column datatype='integer' name='Strength' ordinal='43' />
+            <column datatype='integer' name='Vision' ordinal='44' />
+            <column datatype='integer' name='Volleys' ordinal='45' />
+            <column datatype='integer' name='CAM' ordinal='46' />
+            <column datatype='integer' name='CB' ordinal='47' />
+            <column datatype='integer' name='CDM' ordinal='48' />
+            <column datatype='integer' name='CF' ordinal='49' />
+            <column datatype='integer' name='CM' ordinal='50' />
+            <column datatype='integer' name='ID' ordinal='51' />
+            <column datatype='integer' name='LAM' ordinal='52' />
+            <column datatype='integer' name='LB' ordinal='53' />
+            <column datatype='integer' name='LCB' ordinal='54' />
+            <column datatype='integer' name='LCM' ordinal='55' />
+            <column datatype='integer' name='LDM' ordinal='56' />
+            <column datatype='integer' name='LF' ordinal='57' />
+            <column datatype='integer' name='LM' ordinal='58' />
+            <column datatype='integer' name='LS' ordinal='59' />
+            <column datatype='integer' name='LW' ordinal='60' />
+            <column datatype='integer' name='LWB' ordinal='61' />
+            <column datatype='string' name='Preferred Positions' ordinal='62' />
+            <column datatype='integer' name='RAM' ordinal='63' />
+            <column datatype='integer' name='RB' ordinal='64' />
+            <column datatype='integer' name='RCB' ordinal='65' />
+            <column datatype='integer' name='RCM' ordinal='66' />
+            <column datatype='integer' name='RDM' ordinal='67' />
+            <column datatype='integer' name='RF' ordinal='68' />
+            <column datatype='integer' name='RM' ordinal='69' />
+            <column datatype='integer' name='RS' ordinal='70' />
+            <column datatype='integer' name='RW' ordinal='71' />
+            <column datatype='integer' name='RWB' ordinal='72' />
+            <column datatype='integer' name='ST' ordinal='73' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='textscan.1qy9ns21ymkicz1cajka9123xci1' name='fifa18_clean.csv' table='[fifa18_clean#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='es_ES' separator=','>
+              <column datatype='integer' name='Wage (€)' ordinal='0' />
+              <column datatype='integer' name='Value (€)' ordinal='1' />
+              <column datatype='string' name='Name' ordinal='2' />
+              <column datatype='integer' name='Age' ordinal='3' />
+              <column datatype='string' name='Photo' ordinal='4' />
+              <column datatype='string' name='Nationality' ordinal='5' />
+              <column datatype='string' name='Flag' ordinal='6' />
+              <column datatype='integer' name='Overall' ordinal='7' />
+              <column datatype='integer' name='Potential' ordinal='8' />
+              <column datatype='string' name='Club' ordinal='9' />
+              <column datatype='string' name='Club Logo' ordinal='10' />
+              <column datatype='integer' name='Special' ordinal='11' />
+              <column datatype='integer' name='Acceleration' ordinal='12' />
+              <column datatype='integer' name='Aggression' ordinal='13' />
+              <column datatype='integer' name='Agility' ordinal='14' />
+              <column datatype='integer' name='Balance' ordinal='15' />
+              <column datatype='integer' name='Ball control' ordinal='16' />
+              <column datatype='integer' name='Composure' ordinal='17' />
+              <column datatype='integer' name='Crossing' ordinal='18' />
+              <column datatype='integer' name='Curve' ordinal='19' />
+              <column datatype='integer' name='Dribbling' ordinal='20' />
+              <column datatype='integer' name='Finishing' ordinal='21' />
+              <column datatype='integer' name='Free kick accuracy' ordinal='22' />
+              <column datatype='integer' name='GK diving' ordinal='23' />
+              <column datatype='integer' name='GK handling' ordinal='24' />
+              <column datatype='integer' name='GK kicking' ordinal='25' />
+              <column datatype='integer' name='GK positioning' ordinal='26' />
+              <column datatype='integer' name='GK reflexes' ordinal='27' />
+              <column datatype='integer' name='Heading accuracy' ordinal='28' />
+              <column datatype='integer' name='Interceptions' ordinal='29' />
+              <column datatype='integer' name='Jumping' ordinal='30' />
+              <column datatype='integer' name='Long passing' ordinal='31' />
+              <column datatype='integer' name='Long shots' ordinal='32' />
+              <column datatype='integer' name='Marking' ordinal='33' />
+              <column datatype='integer' name='Penalties' ordinal='34' />
+              <column datatype='integer' name='Positioning' ordinal='35' />
+              <column datatype='integer' name='Reactions' ordinal='36' />
+              <column datatype='integer' name='Short passing' ordinal='37' />
+              <column datatype='integer' name='Shot power' ordinal='38' />
+              <column datatype='integer' name='Sliding tackle' ordinal='39' />
+              <column datatype='integer' name='Sprint speed' ordinal='40' />
+              <column datatype='integer' name='Stamina' ordinal='41' />
+              <column datatype='integer' name='Standing tackle' ordinal='42' />
+              <column datatype='integer' name='Strength' ordinal='43' />
+              <column datatype='integer' name='Vision' ordinal='44' />
+              <column datatype='integer' name='Volleys' ordinal='45' />
+              <column datatype='integer' name='CAM' ordinal='46' />
+              <column datatype='integer' name='CB' ordinal='47' />
+              <column datatype='integer' name='CDM' ordinal='48' />
+              <column datatype='integer' name='CF' ordinal='49' />
+              <column datatype='integer' name='CM' ordinal='50' />
+              <column datatype='integer' name='ID' ordinal='51' />
+              <column datatype='integer' name='LAM' ordinal='52' />
+              <column datatype='integer' name='LB' ordinal='53' />
+              <column datatype='integer' name='LCB' ordinal='54' />
+              <column datatype='integer' name='LCM' ordinal='55' />
+              <column datatype='integer' name='LDM' ordinal='56' />
+              <column datatype='integer' name='LF' ordinal='57' />
+              <column datatype='integer' name='LM' ordinal='58' />
+              <column datatype='integer' name='LS' ordinal='59' />
+              <column datatype='integer' name='LW' ordinal='60' />
+              <column datatype='integer' name='LWB' ordinal='61' />
+              <column datatype='string' name='Preferred Positions' ordinal='62' />
+              <column datatype='integer' name='RAM' ordinal='63' />
+              <column datatype='integer' name='RB' ordinal='64' />
+              <column datatype='integer' name='RCB' ordinal='65' />
+              <column datatype='integer' name='RCM' ordinal='66' />
+              <column datatype='integer' name='RDM' ordinal='67' />
+              <column datatype='integer' name='RF' ordinal='68' />
+              <column datatype='integer' name='RM' ordinal='69' />
+              <column datatype='integer' name='RS' ordinal='70' />
+              <column datatype='integer' name='RW' ordinal='71' />
+              <column datatype='integer' name='RWB' ordinal='72' />
+              <column datatype='integer' name='ST' ordinal='73' />
+            </columns>
+          </relation>
+          <relation name='Pivotar' type='pivot'>
+            <columns>
+              <column datatype='string' name='Nombres de campo de tabla dinámica' />
+              <column datatype='string' name='Valores de campo de tabla dinámica' />
+            </columns>
+            <tag name='Nombres de campo de tabla dinámica'>
+              <value name='[Center back]' />
+              <value name='[Center midflied]' />
+              <value name='[Goal keeper]' />
+              <value name='[Left back]' />
+              <value name='[Right wing]' />
+              <value name='[Striker]' />
+            </tag>
+            <groups>
+              <group name='Valores de campo de tabla dinámica'>
+                <field name='[radar_new.csv].[CB]' />
+                <field name='[radar_new.csv].[CM]' />
+                <field name='[radar_new.csv].[GK]' />
+                <field name='[radar_new.csv].[LB]' />
+                <field name='[radar_new.csv].[RW]' />
+                <field name='[radar_new.csv].[ST]' />
+              </group>
+            </groups>
+            <relation connection='textscan.14c4ldo0a1lfkj1acply9100aesp' name='radar_new.csv' table='[radar_new#csv]' type='table'>
+              <columns character-set='UTF-8' header='yes' locale='es_ES' separator=','>
+                <column datatype='integer' name='F1' ordinal='0' />
+                <column datatype='string' name='Name' ordinal='1' />
+                <column datatype='string' name='GK' ordinal='2' />
+                <column datatype='string' name='CB' ordinal='3' />
+                <column datatype='string' name='CM' ordinal='4' />
+                <column datatype='string' name='ST' ordinal='5' />
+                <column datatype='string' name='RW' ordinal='6' />
+                <column datatype='string' name='LB' ordinal='7' />
+              </columns>
+            </relation>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[Acceleration]' value='[fifa18_clean.csv].[Acceleration]' />
+          <map key='[Age]' value='[fifa18_clean.csv].[Age]' />
+          <map key='[Aggression]' value='[fifa18_clean.csv].[Aggression]' />
+          <map key='[Agility]' value='[fifa18_clean.csv].[Agility]' />
+          <map key='[Balance]' value='[fifa18_clean.csv].[Balance]' />
+          <map key='[Ball control]' value='[fifa18_clean.csv].[Ball control]' />
+          <map key='[CAM]' value='[fifa18_clean.csv].[CAM]' />
+          <map key='[CB]' value='[fifa18_clean.csv].[CB]' />
+          <map key='[CDM]' value='[fifa18_clean.csv].[CDM]' />
+          <map key='[CF]' value='[fifa18_clean.csv].[CF]' />
+          <map key='[CM]' value='[fifa18_clean.csv].[CM]' />
+          <map key='[Club Logo]' value='[fifa18_clean.csv].[Club Logo]' />
+          <map key='[Club]' value='[fifa18_clean.csv].[Club]' />
+          <map key='[Composure]' value='[fifa18_clean.csv].[Composure]' />
+          <map key='[Crossing]' value='[fifa18_clean.csv].[Crossing]' />
+          <map key='[Curve]' value='[fifa18_clean.csv].[Curve]' />
+          <map key='[Dribbling]' value='[fifa18_clean.csv].[Dribbling]' />
+          <map key='[F1 (radar_new.csv)]' value='[radar_new.csv].[F1]' />
+          <map key='[Finishing]' value='[fifa18_clean.csv].[Finishing]' />
+          <map key='[Flag]' value='[fifa18_clean.csv].[Flag]' />
+          <map key='[Free kick accuracy]' value='[fifa18_clean.csv].[Free kick accuracy]' />
+          <map key='[GK diving]' value='[fifa18_clean.csv].[GK diving]' />
+          <map key='[GK handling]' value='[fifa18_clean.csv].[GK handling]' />
+          <map key='[GK kicking]' value='[fifa18_clean.csv].[GK kicking]' />
+          <map key='[GK positioning]' value='[fifa18_clean.csv].[GK positioning]' />
+          <map key='[GK reflexes]' value='[fifa18_clean.csv].[GK reflexes]' />
+          <map key='[Heading accuracy]' value='[fifa18_clean.csv].[Heading accuracy]' />
+          <map key='[ID]' value='[fifa18_clean.csv].[ID]' />
+          <map key='[Interceptions]' value='[fifa18_clean.csv].[Interceptions]' />
+          <map key='[Jumping]' value='[fifa18_clean.csv].[Jumping]' />
+          <map key='[LAM]' value='[fifa18_clean.csv].[LAM]' />
+          <map key='[LB]' value='[fifa18_clean.csv].[LB]' />
+          <map key='[LCB]' value='[fifa18_clean.csv].[LCB]' />
+          <map key='[LCM]' value='[fifa18_clean.csv].[LCM]' />
+          <map key='[LDM]' value='[fifa18_clean.csv].[LDM]' />
+          <map key='[LF]' value='[fifa18_clean.csv].[LF]' />
+          <map key='[LM]' value='[fifa18_clean.csv].[LM]' />
+          <map key='[LS]' value='[fifa18_clean.csv].[LS]' />
+          <map key='[LWB]' value='[fifa18_clean.csv].[LWB]' />
+          <map key='[LW]' value='[fifa18_clean.csv].[LW]' />
+          <map key='[Long passing]' value='[fifa18_clean.csv].[Long passing]' />
+          <map key='[Long shots]' value='[fifa18_clean.csv].[Long shots]' />
+          <map key='[Marking]' value='[fifa18_clean.csv].[Marking]' />
+          <map key='[Name (radar_new.csv)]' value='[radar_new.csv].[Name]' />
+          <map key='[Name]' value='[fifa18_clean.csv].[Name]' />
+          <map key='[Nationality]' value='[fifa18_clean.csv].[Nationality]' />
+          <map key='[Nombres de campo de tabla dinámica]' value='[Pivotar].[Nombres de campo de tabla dinámica]' />
+          <map key='[Overall]' value='[fifa18_clean.csv].[Overall]' />
+          <map key='[Penalties]' value='[fifa18_clean.csv].[Penalties]' />
+          <map key='[Photo]' value='[fifa18_clean.csv].[Photo]' />
+          <map key='[Positioning]' value='[fifa18_clean.csv].[Positioning]' />
+          <map key='[Potential]' value='[fifa18_clean.csv].[Potential]' />
+          <map key='[Preferred Positions]' value='[fifa18_clean.csv].[Preferred Positions]' />
+          <map key='[RAM]' value='[fifa18_clean.csv].[RAM]' />
+          <map key='[RB]' value='[fifa18_clean.csv].[RB]' />
+          <map key='[RCB]' value='[fifa18_clean.csv].[RCB]' />
+          <map key='[RCM]' value='[fifa18_clean.csv].[RCM]' />
+          <map key='[RDM]' value='[fifa18_clean.csv].[RDM]' />
+          <map key='[RF]' value='[fifa18_clean.csv].[RF]' />
+          <map key='[RM]' value='[fifa18_clean.csv].[RM]' />
+          <map key='[RS]' value='[fifa18_clean.csv].[RS]' />
+          <map key='[RWB]' value='[fifa18_clean.csv].[RWB]' />
+          <map key='[RW]' value='[fifa18_clean.csv].[RW]' />
+          <map key='[Reactions]' value='[fifa18_clean.csv].[Reactions]' />
+          <map key='[ST]' value='[fifa18_clean.csv].[ST]' />
+          <map key='[Short passing]' value='[fifa18_clean.csv].[Short passing]' />
+          <map key='[Shot power]' value='[fifa18_clean.csv].[Shot power]' />
+          <map key='[Sliding tackle]' value='[fifa18_clean.csv].[Sliding tackle]' />
+          <map key='[Special]' value='[fifa18_clean.csv].[Special]' />
+          <map key='[Sprint speed]' value='[fifa18_clean.csv].[Sprint speed]' />
+          <map key='[Stamina]' value='[fifa18_clean.csv].[Stamina]' />
+          <map key='[Standing tackle]' value='[fifa18_clean.csv].[Standing tackle]' />
+          <map key='[Strength]' value='[fifa18_clean.csv].[Strength]' />
+          <map key='[Valores de campo de tabla dinámica]' value='[Pivotar].[Valores de campo de tabla dinámica]' />
+          <map key='[Value (€)]' value='[fifa18_clean.csv].[Value (€)]' />
+          <map key='[Vision]' value='[fifa18_clean.csv].[Vision]' />
+          <map key='[Volleys]' value='[fifa18_clean.csv].[Volleys]' />
+          <map key='[Wage (€)]' value='[fifa18_clean.csv].[Wage (€)]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;es&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;es_ES&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[radar_new.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;es&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;es_ES&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wage (€)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Wage (€)]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Wage (€)</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Value (€)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Value (€)]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Value (€)</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Photo</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Photo]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Photo</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nationality</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Nationality]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Nationality</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Flag</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Flag]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Flag</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Overall</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Overall]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Overall</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Potential</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Potential]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Potential</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Club</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Club]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Club</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Club Logo</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Club Logo]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Club Logo</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Special</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Special]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Special</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Acceleration</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Acceleration]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Acceleration</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Aggression</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Aggression]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Aggression</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Agility</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Agility]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Agility</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Balance</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Balance]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Balance</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ball control</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ball control]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Ball control</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Composure</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Composure]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Composure</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crossing</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Crossing]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Crossing</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Curve</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Curve]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Curve</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dribbling</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dribbling]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Dribbling</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Finishing</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Finishing]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Finishing</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Free kick accuracy</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Free kick accuracy]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Free kick accuracy</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GK diving</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GK diving]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>GK diving</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GK handling</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GK handling]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>GK handling</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GK kicking</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GK kicking]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>GK kicking</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GK positioning</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GK positioning]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>GK positioning</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GK reflexes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GK reflexes]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>GK reflexes</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Heading accuracy</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Heading accuracy]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Heading accuracy</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Interceptions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Interceptions]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Interceptions</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Jumping</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Jumping]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Jumping</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Long passing</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Long passing]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Long passing</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Long shots</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Long shots]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Long shots</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Marking</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Marking]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Marking</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Penalties</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Penalties]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Penalties</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Positioning</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Positioning]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Positioning</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reactions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Reactions]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Reactions</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Short passing</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Short passing]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Short passing</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shot power</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shot power]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Shot power</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sliding tackle</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sliding tackle]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Sliding tackle</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sprint speed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sprint speed]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Sprint speed</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Stamina</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Stamina]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Stamina</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Standing tackle</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Standing tackle]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Standing tackle</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Strength</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Strength]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Strength</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vision</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Vision]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Vision</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Volleys</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Volleys]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Volleys</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CAM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CAM]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>CAM</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CB</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CB]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>CB</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CDM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CDM]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>CDM</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CF</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CF]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>CF</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CM]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>CM</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ID]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LAM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LAM]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>LAM</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LB</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LB]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>LB</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LCB</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LCB]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>LCB</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LCM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LCM]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>LCM</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LDM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LDM]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>LDM</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LF</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LF]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>LF</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LM]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>LM</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LS]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>LS</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LW</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LW]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>LW</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LWB</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LWB]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>LWB</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Preferred Positions</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Preferred Positions]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>Preferred Positions</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RAM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RAM]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>RAM</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RB</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RB]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>RB</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RCB</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RCB]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>RCB</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RCM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RCM]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>RCM</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RDM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RDM]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>RDM</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RF</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RF]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>RF</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RM]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>RM</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RS]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>RS</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RW</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RW]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>RW</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RWB</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RWB]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>RWB</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ST</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ST]</local-name>
+            <parent-name>[fifa18_clean.csv]</parent-name>
+            <remote-alias>ST</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1 (radar_new.csv)]</local-name>
+            <parent-name>[radar_new.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[radar_new.csv_7D3F5A0EB6B54AEEA04C51D1945A06DD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Name (radar_new.csv)]</local-name>
+            <parent-name>[radar_new.csv]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[radar_new.csv_7D3F5A0EB6B54AEEA04C51D1945A06DD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nombres de campo de tabla dinámica</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Nombres de campo de tabla dinámica]</local-name>
+            <parent-name>[Pivotar]</parent-name>
+            <remote-alias>Nombres de campo de tabla dinámica</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[radar_new.csv_7D3F5A0EB6B54AEEA04C51D1945A06DD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Valores de campo de tabla dinámica</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Valores de campo de tabla dinámica]</local-name>
+            <parent-name>[Pivotar]</parent-name>
+            <remote-alias>Valores de campo de tabla dinámica</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[radar_new.csv_7D3F5A0EB6B54AEEA04C51D1945A06DD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='jugador mejor pagado por pais' datatype='string' name='[Calculation_985162428139675650]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF {FIXED [Nationality]:Max([Wage (€)])}=[Wage (€)] Then [Name] END' />
+      </column>
+      <column caption='path' datatype='integer' name='[Calculation_985162428148494340]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='CASE [Calculation_985162428150300679]&#13;&#10;    WHEN &quot;Goal keeper&quot; THEN 1&#13;&#10;    WHEN &apos;Center back&apos; THEN 2&#13;&#10;    WHEN &apos;Left back&apos; THEN 3&#13;&#10;    WHEN &apos;Center midflied&apos; THEN 4&#13;&#10;    WHEN &apos;Right wing&apos; THEN 5&#13;&#10;    WHEN &apos;Striker&apos; THEN 6&#13;&#10;    &#13;&#10;END' />
+      </column>
+      <column caption='Score' datatype='real' datatype-customized='true' name='[Calculation_985162428149583878]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='FLOAT(REPLACE([Valores de campo de tabla dinámica],&quot; &quot;,&quot;&quot;))' />
+      </column>
+      <column caption='Quality_new' datatype='string' name='[Calculation_985162428150300679]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='REPLACE([Nombres de campo de tabla dinámica],&quot;(radar.csv)&quot;,&quot;&quot;)' />
+      </column>
+      <column caption='Cálculo1' datatype='integer' hidden='true' name='[Calculation_985162428150923272]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='CASE [Calculation_985162428150300679]&#13;&#10;WHEN &quot;Acceleration&quot; THEN 1&#13;&#10;WHEN &apos;Aggression&apos; THEN 2&#13;&#10;WHEN &apos;Agility&apos; THEN 3&#13;&#10;WHEN &apos;Balance&apos; THEN 4&#13;&#10;WHEN &apos;publications&apos; THEN 5&#13;&#10;WHEN &apos;Ball control&apos; THEN 6&#13;&#10;END' />
+      </column>
+      <column caption='x' datatype='real' name='[Calculation_985162428152516617]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='CASE [Calculation_985162428150300679]&#13;&#10;WHEN &apos;Goal keeper&apos; THEN [Calculation_985162428149583878]*(SQRT(3)/2)&#13;&#10;WHEN &apos;Center back&apos; THEN 0&#13;&#10;WHEN &apos;Left back&apos; THEN [Calculation_985162428149583878]*(-SQRT(3)/2)&#13;&#10;WHEN &apos;Center midflied&apos; THEN [Calculation_985162428149583878]*(-SQRT(3)/2)&#13;&#10;WHEN &apos;Right wing&apos; THEN 0&#13;&#10;WHEN &apos;Striker&apos; THEN [Calculation_985162428149583878]*(SQRT(3)/2)&#13;&#10;END' />
+      </column>
+      <column caption='y' datatype='real' name='[Calculation_985162428152963082]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='CASE [Calculation_985162428150300679]&#13;&#10;WHEN &apos;Goal keeper&apos; THEN [Calculation_985162428149583878]*(1/2)&#13;&#10;WHEN &apos;Center back&apos; THEN [Calculation_985162428149583878]*1&#13;&#10;WHEN &apos;Left back&apos; THEN [Calculation_985162428149583878]*(1/2)&#13;&#10;WHEN &apos;Center midflied&apos; THEN [Calculation_985162428149583878]*(-1/2)&#13;&#10;WHEN &apos;Right wing&apos; THEN [Calculation_985162428149583878]*(-1)&#13;&#10;WHEN &apos;Striker&apos; THEN [Calculation_985162428149583878]*(-1/2)&#13;&#10;END' />
+      </column>
+      <column caption='GK rating' datatype='integer' name='[Calculation_985162428846882829]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='INT(([GK diving] + [GK handling] + [GK kicking] + [GK positioning] + [GK reflexes]) / 5)' />
+      </column>
+      <column caption='Defender rating' datatype='integer' name='[Calculation_985162428847108110]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='INT(([CB] + [CDM] + [LB] + [RB] + [LCB] + [LDM] + [RCB] + [RDM])/8)' />
+      </column>
+      <column caption='Attacker Rating' datatype='integer' name='[Calculation_985162428847247375]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='INT(([CAM]+[CF]+[LAM]+[LF]+[LS]+[LW]+[RAM]+[RF]+[RS]+[RW]+[ST])/11)' />
+      </column>
+      <column caption='Mental rating' datatype='integer' name='[Calculation_985162428847386640]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='INT(([Aggression]+[Composure]+[Vision])/3)' />
+      </column>
+      <column caption='MC rating' datatype='integer' name='[Calculation_985162428847505425]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='INT(([CAM]+[CDM]+[CM]+[LAM]+[LCM]+[LDM]+[LM]+[LWB]+[RAM]+[RCM]+[RDM] +[RM]+[RWB]) / 13)' />
+      </column>
+      <column caption='Physical rating' datatype='integer' name='[Calculation_985162428847603730]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='INT(([Acceleration]+[Agility]+[Balance]+[Jumping]+[Stamina]+[Strength])/6)' />
+      </column>
+      <column datatype='string' hidden='true' name='[Club Logo]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Club]' role='dimension' type='nominal' />
+      <column datatype='integer' hidden='true' name='[F1 (radar_new.csv)]' role='measure' type='quantitative' />
+      <column datatype='string' hidden='true' name='[Flag]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Name (radar.csv)]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Name (radar_new.csv)]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Nationality]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+      <column caption='Quality' datatype='string' hidden='true' name='[Nombres de campo de tabla dinámica]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Photo]' role='dimension' type='nominal' />
+      <column caption='Preferred Positions - División 1' datatype='string' name='[Preferred Positions - División 1]' role='dimension' type='nominal' user:SplitFieldIndex='1' user:SplitFieldOrigin='[federated.0sfgfa916risy014cssob1awfl4i].[Preferred Positions]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [Preferred Positions], &quot; &quot;, 1 ) )' />
+      </column>
+      <column datatype='string' hidden='true' name='[Preferred Positions]' role='dimension' type='nominal' />
+      <column caption='Value' datatype='string' hidden='true' name='[Valores de campo de tabla dinámica]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='fifa18_clean.csv' datatype='table' name='[__tableau_internal_object_id__].[fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='radar_new.csv' datatype='table' name='[__tableau_internal_object_id__].[radar_new.csv_7D3F5A0EB6B54AEEA04C51D1945A06DD]' role='measure' type='quantitative' />
+      <column caption='y (copia)' datatype='real' name='[y (copia)_985162428155273227]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='CASE [Calculation_985162428150300679]&#13;&#10;WHEN &apos;Goal keeper&apos; THEN [Calculation_985162428149583878]*(1/2)&#13;&#10;WHEN &apos;Center back&apos; THEN [Calculation_985162428149583878]*1&#13;&#10;WHEN &apos;Left back&apos; THEN [Calculation_985162428149583878]*(1/2)&#13;&#10;WHEN &apos;Center midflied&apos; THEN [Calculation_985162428149583878]*(-1/2)&#13;&#10;WHEN &apos;Right wing&apos; THEN [Calculation_985162428149583878]*(-1)&#13;&#10;WHEN &apos;Striker&apos; THEN [Calculation_985162428149583878]*(-1/2)&#13;&#10;END' />
+      </column>
+      <column-instance column='[Calculation_985162428152963082]' derivation='Sum' name='[sum:Calculation_985162428152963082:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[y (copia)_985162428155273227]' derivation='Sum' name='[sum:y (copia)_985162428155273227:qk]' pivot='key' type='quantitative' />
+      <group caption='Acción (Club,Name (radar.csv))' hidden='true' name='[Action (Club,Name (radar.csv))]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Club]' />
+          <groupfilter function='level-members' level='[Name (radar.csv)]' />
+        </groupfilter>
+      </group>
+      <group caption='Acción (Club,Name (radar_new.csv))' hidden='true' name='[Action (Club,Name (radar_new.csv))]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Club]' />
+          <groupfilter function='level-members' level='[Name (radar_new.csv)]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#00007f'>
+              <bucket>&quot;[federated.0sfgfa916risy014cssob1awfl4i].[sum:y (copia)_985162428155273227:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0sfgfa916risy014cssob1awfl4i].[sum:Calculation_985162428152963082:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;España&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Name (radar_new.csv)' />
+        <field-sort-custom-order field='GK' />
+        <field-sort-custom-order field='CB (radar_new.csv)' />
+        <field-sort-custom-order field='CM (radar_new.csv)' />
+        <field-sort-custom-order field='ST (radar_new.csv)' />
+        <field-sort-custom-order field='RW (radar_new.csv)' />
+        <field-sort-custom-order field='LB (radar_new.csv)' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='fifa18_clean.csv' id='fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01'>
+            <properties context=''>
+              <relation connection='textscan.1qy9ns21ymkicz1cajka9123xci1' name='fifa18_clean.csv' table='[fifa18_clean#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='es_ES' separator=','>
+                  <column datatype='integer' name='Wage (€)' ordinal='0' />
+                  <column datatype='integer' name='Value (€)' ordinal='1' />
+                  <column datatype='string' name='Name' ordinal='2' />
+                  <column datatype='integer' name='Age' ordinal='3' />
+                  <column datatype='string' name='Photo' ordinal='4' />
+                  <column datatype='string' name='Nationality' ordinal='5' />
+                  <column datatype='string' name='Flag' ordinal='6' />
+                  <column datatype='integer' name='Overall' ordinal='7' />
+                  <column datatype='integer' name='Potential' ordinal='8' />
+                  <column datatype='string' name='Club' ordinal='9' />
+                  <column datatype='string' name='Club Logo' ordinal='10' />
+                  <column datatype='integer' name='Special' ordinal='11' />
+                  <column datatype='integer' name='Acceleration' ordinal='12' />
+                  <column datatype='integer' name='Aggression' ordinal='13' />
+                  <column datatype='integer' name='Agility' ordinal='14' />
+                  <column datatype='integer' name='Balance' ordinal='15' />
+                  <column datatype='integer' name='Ball control' ordinal='16' />
+                  <column datatype='integer' name='Composure' ordinal='17' />
+                  <column datatype='integer' name='Crossing' ordinal='18' />
+                  <column datatype='integer' name='Curve' ordinal='19' />
+                  <column datatype='integer' name='Dribbling' ordinal='20' />
+                  <column datatype='integer' name='Finishing' ordinal='21' />
+                  <column datatype='integer' name='Free kick accuracy' ordinal='22' />
+                  <column datatype='integer' name='GK diving' ordinal='23' />
+                  <column datatype='integer' name='GK handling' ordinal='24' />
+                  <column datatype='integer' name='GK kicking' ordinal='25' />
+                  <column datatype='integer' name='GK positioning' ordinal='26' />
+                  <column datatype='integer' name='GK reflexes' ordinal='27' />
+                  <column datatype='integer' name='Heading accuracy' ordinal='28' />
+                  <column datatype='integer' name='Interceptions' ordinal='29' />
+                  <column datatype='integer' name='Jumping' ordinal='30' />
+                  <column datatype='integer' name='Long passing' ordinal='31' />
+                  <column datatype='integer' name='Long shots' ordinal='32' />
+                  <column datatype='integer' name='Marking' ordinal='33' />
+                  <column datatype='integer' name='Penalties' ordinal='34' />
+                  <column datatype='integer' name='Positioning' ordinal='35' />
+                  <column datatype='integer' name='Reactions' ordinal='36' />
+                  <column datatype='integer' name='Short passing' ordinal='37' />
+                  <column datatype='integer' name='Shot power' ordinal='38' />
+                  <column datatype='integer' name='Sliding tackle' ordinal='39' />
+                  <column datatype='integer' name='Sprint speed' ordinal='40' />
+                  <column datatype='integer' name='Stamina' ordinal='41' />
+                  <column datatype='integer' name='Standing tackle' ordinal='42' />
+                  <column datatype='integer' name='Strength' ordinal='43' />
+                  <column datatype='integer' name='Vision' ordinal='44' />
+                  <column datatype='integer' name='Volleys' ordinal='45' />
+                  <column datatype='integer' name='CAM' ordinal='46' />
+                  <column datatype='integer' name='CB' ordinal='47' />
+                  <column datatype='integer' name='CDM' ordinal='48' />
+                  <column datatype='integer' name='CF' ordinal='49' />
+                  <column datatype='integer' name='CM' ordinal='50' />
+                  <column datatype='integer' name='ID' ordinal='51' />
+                  <column datatype='integer' name='LAM' ordinal='52' />
+                  <column datatype='integer' name='LB' ordinal='53' />
+                  <column datatype='integer' name='LCB' ordinal='54' />
+                  <column datatype='integer' name='LCM' ordinal='55' />
+                  <column datatype='integer' name='LDM' ordinal='56' />
+                  <column datatype='integer' name='LF' ordinal='57' />
+                  <column datatype='integer' name='LM' ordinal='58' />
+                  <column datatype='integer' name='LS' ordinal='59' />
+                  <column datatype='integer' name='LW' ordinal='60' />
+                  <column datatype='integer' name='LWB' ordinal='61' />
+                  <column datatype='string' name='Preferred Positions' ordinal='62' />
+                  <column datatype='integer' name='RAM' ordinal='63' />
+                  <column datatype='integer' name='RB' ordinal='64' />
+                  <column datatype='integer' name='RCB' ordinal='65' />
+                  <column datatype='integer' name='RCM' ordinal='66' />
+                  <column datatype='integer' name='RDM' ordinal='67' />
+                  <column datatype='integer' name='RF' ordinal='68' />
+                  <column datatype='integer' name='RM' ordinal='69' />
+                  <column datatype='integer' name='RS' ordinal='70' />
+                  <column datatype='integer' name='RW' ordinal='71' />
+                  <column datatype='integer' name='RWB' ordinal='72' />
+                  <column datatype='integer' name='ST' ordinal='73' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='radar_new.csv' id='radar_new.csv_7D3F5A0EB6B54AEEA04C51D1945A06DD'>
+            <properties context=''>
+              <relation name='Pivotar' type='pivot'>
+                <columns>
+                  <column datatype='string' name='Nombres de campo de tabla dinámica' />
+                  <column datatype='string' name='Valores de campo de tabla dinámica' />
+                </columns>
+                <tag name='Nombres de campo de tabla dinámica'>
+                  <value name='[Center back]' />
+                  <value name='[Center midflied]' />
+                  <value name='[Goal keeper]' />
+                  <value name='[Left back]' />
+                  <value name='[Right wing]' />
+                  <value name='[Striker]' />
+                </tag>
+                <groups>
+                  <group name='Valores de campo de tabla dinámica'>
+                    <field name='[radar_new.csv].[CB]' />
+                    <field name='[radar_new.csv].[CM]' />
+                    <field name='[radar_new.csv].[GK]' />
+                    <field name='[radar_new.csv].[LB]' />
+                    <field name='[radar_new.csv].[RW]' />
+                    <field name='[radar_new.csv].[ST]' />
+                  </group>
+                </groups>
+                <relation connection='textscan.14c4ldo0a1lfkj1acply9100aesp' name='radar_new.csv' table='[radar_new#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='es_ES' separator=','>
+                    <column datatype='integer' name='F1' ordinal='0' />
+                    <column datatype='string' name='Name' ordinal='1' />
+                    <column datatype='string' name='GK' ordinal='2' />
+                    <column datatype='string' name='CB' ordinal='3' />
+                    <column datatype='string' name='CM' ordinal='4' />
+                    <column datatype='string' name='ST' ordinal='5' />
+                    <column datatype='string' name='RW' ordinal='6' />
+                    <column datatype='string' name='LB' ordinal='7' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[Name]' />
+              <expression op='[Name (radar_new.csv)]' />
+            </expression>
+            <first-end-point object-id='fifa18_clean.csv_B40A4AA17FBF44E2B8F3986370B08B01' />
+            <second-end-point object-id='radar_new.csv_7D3F5A0EB6B54AEEA04C51D1945A06DD' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Filtro1' name='[Action1]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filtro2' name='[Action2]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Hoja 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='fifa18_clean' name='federated.0sfgfa916risy014cssob1awfl4i' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0sfgfa916risy014cssob1awfl4i'>
+            <column caption='jugador mejor pagado por pais' datatype='string' name='[Calculation_985162428139675650]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF {FIXED [Nationality]:Max([Wage (€)])}=[Wage (€)] Then [Name] END' />
+            </column>
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Nationality]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+            <column datatype='integer' name='[Wage (€)]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_985162428139675650]' derivation='Attribute' name='[attr:Calculation_985162428139675650:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Wage (€)]' derivation='Avg' name='[avg:Wage (€):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Nationality]' derivation='None' name='[none:Nationality:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0sfgfa916risy014cssob1awfl4i].[avg:Wage (€):qk]' palette='sunrise_sunset_diverging_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.0sfgfa916risy014cssob1awfl4i].[avg:Wage (€):qk]' />
+              <lod column='[federated.0sfgfa916risy014cssob1awfl4i].[none:Nationality:nk]' />
+              <tooltip column='[federated.0sfgfa916risy014cssob1awfl4i].[attr:Calculation_985162428139675650:nk]' />
+              <geometry column='[federated.0sfgfa916risy014cssob1awfl4i].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0sfgfa916risy014cssob1awfl4i].[Latitude (generated)]</rows>
+        <cols>[federated.0sfgfa916risy014cssob1awfl4i].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{A21497F8-3A87-43F8-B0DB-CE8FB3FA60EF}' />
+    </worksheet>
+    <worksheet name='Hoja 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Stats</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='fifa18_clean' name='federated.0sfgfa916risy014cssob1awfl4i' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0sfgfa916risy014cssob1awfl4i'>
+            <column caption='path' datatype='integer' name='[Calculation_985162428148494340]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='CASE [Calculation_985162428150300679]&#13;&#10;    WHEN &quot;Goal keeper&quot; THEN 1&#13;&#10;    WHEN &apos;Center back&apos; THEN 2&#13;&#10;    WHEN &apos;Left back&apos; THEN 3&#13;&#10;    WHEN &apos;Center midflied&apos; THEN 4&#13;&#10;    WHEN &apos;Right wing&apos; THEN 5&#13;&#10;    WHEN &apos;Striker&apos; THEN 6&#13;&#10;    &#13;&#10;END' />
+            </column>
+            <column caption='Score' datatype='real' datatype-customized='true' name='[Calculation_985162428149583878]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='FLOAT(REPLACE([Valores de campo de tabla dinámica],&quot; &quot;,&quot;&quot;))' />
+            </column>
+            <column caption='Quality_new' datatype='string' name='[Calculation_985162428150300679]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='REPLACE([Nombres de campo de tabla dinámica],&quot;(radar.csv)&quot;,&quot;&quot;)' />
+            </column>
+            <column caption='x' datatype='real' name='[Calculation_985162428152516617]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='CASE [Calculation_985162428150300679]&#13;&#10;WHEN &apos;Goal keeper&apos; THEN [Calculation_985162428149583878]*(SQRT(3)/2)&#13;&#10;WHEN &apos;Center back&apos; THEN 0&#13;&#10;WHEN &apos;Left back&apos; THEN [Calculation_985162428149583878]*(-SQRT(3)/2)&#13;&#10;WHEN &apos;Center midflied&apos; THEN [Calculation_985162428149583878]*(-SQRT(3)/2)&#13;&#10;WHEN &apos;Right wing&apos; THEN 0&#13;&#10;WHEN &apos;Striker&apos; THEN [Calculation_985162428149583878]*(SQRT(3)/2)&#13;&#10;END' />
+            </column>
+            <column caption='y' datatype='real' name='[Calculation_985162428152963082]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='CASE [Calculation_985162428150300679]&#13;&#10;WHEN &apos;Goal keeper&apos; THEN [Calculation_985162428149583878]*(1/2)&#13;&#10;WHEN &apos;Center back&apos; THEN [Calculation_985162428149583878]*1&#13;&#10;WHEN &apos;Left back&apos; THEN [Calculation_985162428149583878]*(1/2)&#13;&#10;WHEN &apos;Center midflied&apos; THEN [Calculation_985162428149583878]*(-1/2)&#13;&#10;WHEN &apos;Right wing&apos; THEN [Calculation_985162428149583878]*(-1)&#13;&#10;WHEN &apos;Striker&apos; THEN [Calculation_985162428149583878]*(-1/2)&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Club]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Name (radar_new.csv)]' role='dimension' type='nominal' />
+            <column caption='Quality' datatype='string' hidden='true' name='[Nombres de campo de tabla dinámica]' role='dimension' type='nominal' />
+            <column caption='Value' datatype='string' hidden='true' name='[Valores de campo de tabla dinámica]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_985162428149583878]' derivation='Attribute' name='[attr:Calculation_985162428149583878:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_985162428149583878]' derivation='None' name='[none:Calculation_985162428149583878:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_985162428150300679]' derivation='None' name='[none:Calculation_985162428150300679:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Name (radar_new.csv)]' derivation='None' name='[none:Name (radar_new.csv):nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_985162428148494340]' derivation='Sum' name='[sum:Calculation_985162428148494340:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_985162428152516617]' derivation='Sum' name='[sum:Calculation_985162428152516617:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_985162428152963082]' derivation='Sum' name='[sum:Calculation_985162428152963082:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[y (copia)_985162428155273227]' derivation='Sum' name='[sum:y (copia)_985162428155273227:qk]' pivot='key' type='quantitative' />
+            <column caption='y (copia)' datatype='real' name='[y (copia)_985162428155273227]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='CASE [Calculation_985162428150300679]&#13;&#10;WHEN &apos;Goal keeper&apos; THEN [Calculation_985162428149583878]*(1/2)&#13;&#10;WHEN &apos;Center back&apos; THEN [Calculation_985162428149583878]*1&#13;&#10;WHEN &apos;Left back&apos; THEN [Calculation_985162428149583878]*(1/2)&#13;&#10;WHEN &apos;Center midflied&apos; THEN [Calculation_985162428149583878]*(-1/2)&#13;&#10;WHEN &apos;Right wing&apos; THEN [Calculation_985162428149583878]*(-1)&#13;&#10;WHEN &apos;Striker&apos; THEN [Calculation_985162428149583878]*(-1/2)&#13;&#10;END' />
+            </column>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0sfgfa916risy014cssob1awfl4i].[Action (Club,Name (radar_new.csv))]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[Club]' member='&quot;Real Madrid CF&quot;' />
+              <groupfilter function='member' level='[Name (radar_new.csv)]' member='&quot;Casemiro&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0sfgfa916risy014cssob1awfl4i].[none:Name (radar_new.csv):nk]'>
+            <groupfilter function='level-members' level='[none:Name (radar_new.csv):nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0sfgfa916risy014cssob1awfl4i].[none:Name (radar_new.csv):nk]</column>
+            <column>[federated.0sfgfa916risy014cssob1awfl4i].[Action (Club,Name (radar_new.csv))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0sfgfa916risy014cssob1awfl4i].[sum:y (copia)_985162428155273227:qk]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
+            <encoding attr='space' class='0' field='[federated.0sfgfa916risy014cssob1awfl4i].[sum:Calculation_985162428152516617:qk]' field-type='quantitative' max='100.0' min='-100.0' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0sfgfa916risy014cssob1awfl4i].[sum:Calculation_985162428152963082:qk]' field-type='quantitative' max='100.0' min='-100.0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0sfgfa916risy014cssob1awfl4i].[sum:Calculation_985162428152963082:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Polygon' />
+            <encodings>
+              <tooltip column='[federated.0sfgfa916risy014cssob1awfl4i].[attr:Calculation_985162428149583878:qk]' />
+              <path column='[federated.0sfgfa916risy014cssob1awfl4i].[sum:Calculation_985162428148494340:qk]' />
+              <lod column='[federated.0sfgfa916risy014cssob1awfl4i].[none:Calculation_985162428150300679:nk]' />
+              <lod column='[federated.0sfgfa916risy014cssob1awfl4i].[none:Calculation_985162428150300679:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Quality_new:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0sfgfa916risy014cssob1awfl4i].[none:Calculation_985162428150300679:nk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#a0cbe8' />
+                <format attr='mark-transparency' value='147' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0sfgfa916risy014cssob1awfl4i].[sum:y (copia)_985162428155273227:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <encodings>
+              <text column='[federated.0sfgfa916risy014cssob1awfl4i].[none:Calculation_985162428150300679:nk]' />
+              <text column='[federated.0sfgfa916risy014cssob1awfl4i].[none:Calculation_985162428149583878:ok]' />
+              <color column='[federated.0sfgfa916risy014cssob1awfl4i].[:Measure Names]' />
+              <lod column='[federated.0sfgfa916risy014cssob1awfl4i].[sum:Calculation_985162428148494340:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Caracteristica:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0sfgfa916risy014cssob1awfl4i].[none:Calculation_985162428150300679:nk]>]]></run>
+                <run>Æ&#10;&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0sfgfa916risy014cssob1awfl4i].[sum:Calculation_985162428152963082:qk] + [federated.0sfgfa916risy014cssob1awfl4i].[sum:y (copia)_985162428155273227:qk])</rows>
+        <cols>[federated.0sfgfa916risy014cssob1awfl4i].[sum:Calculation_985162428152516617:qk]</cols>
+      </table>
+      <simple-id uuid='{358769A8-F50D-420A-A5FC-F2BE8D7E5B20}' />
+    </worksheet>
+    <worksheet name='Hoja 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Jugadores</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='fifa18_clean' name='federated.0sfgfa916risy014cssob1awfl4i' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0sfgfa916risy014cssob1awfl4i'>
+            <column datatype='string' name='[Club]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Name (radar_new.csv)]' role='dimension' type='nominal' />
+            <column-instance column='[Club]' derivation='None' name='[none:Club:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Name (radar_new.csv)]' derivation='None' name='[none:Name (radar_new.csv):nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([federated.0sfgfa916risy014cssob1awfl4i].[none:Name (radar_new.csv):nk] / [federated.0sfgfa916risy014cssob1awfl4i].[none:Club:nk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{A2AB1CE8-43EB-4C53-BD8E-3966B9BDD41A}' />
+    </worksheet>
+    <worksheet name='Hoja 4'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{CF897290-7646-49BC-A7C1-59381D92A4F0}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='7' param='horz' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='98000' id='5' w='63500' x='800' y='1000'>
+              <zone h='98000' id='3' name='Hoja 2' w='63500' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' fixed-size='349' h='98000' id='6' is-fixed='true' param='vert' w='34900' x='64300' y='1000'>
+              <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='6375' id='9' name='Hoja 2' pane-specification-id='2' param='[federated.0sfgfa916risy014cssob1awfl4i].[:Measure Names]' w='34900' x='64300' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='91625' id='10' name='Hoja 3' w='34900' x='64300' y='7375'>
+                <layout-cache fixed-size-h='358251' fixed-size-w='363' type-h='fixed' type-w='fixed' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='16' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='15' param='vert' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Hoja 2' w='63500' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='6375' id='9' name='Hoja 2' pane-specification-id='2' param='[federated.0sfgfa916risy014cssob1awfl4i].[:Measure Names]' w='34900' x='64300' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='91625' id='10' is-fixed='true' name='Hoja 3' w='34900' x='64300' y='7375'>
+                  <layout-cache fixed-size-h='358251' fixed-size-w='363' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{022A770E-060B-4995-9E7F-CB887440FD47}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='63'>
+    <window class='worksheet' name='Hoja 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='172'>
+            <card pane-specification-id='0' param='[federated.0sfgfa916risy014cssob1awfl4i].[avg:Wage (€):qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4A9A6FA0-1185-4ECA-9AB0-251D0C327832}' />
+    </window>
+    <window class='worksheet' name='Hoja 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='172'>
+            <card param='[federated.0sfgfa916risy014cssob1awfl4i].[none:Name (radar_new.csv):nk]' type='filter' />
+            <card pane-specification-id='2' param='[federated.0sfgfa916risy014cssob1awfl4i].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E0FEFC58-7C9E-43CA-B97F-B5EF8112757D}' />
+    </window>
+    <window class='worksheet' name='Hoja 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='128'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='24'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0115B96D-1208-4522-A491-1AF7CCC44D74}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Hoja 2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Hoja 3' />
+      </viewpoints>
+      <active id='10' />
+      <simple-id uuid='{EAD3072B-B35C-41CE-BC7D-82FFD5A5A3BD}' />
+    </window>
+    <window class='worksheet' name='Hoja 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{EECD01CB-FF12-4CE5-BD89-5D4A8100DD6A}' />
+    </window>
+  </windows>
+</workbook>
