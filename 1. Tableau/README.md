@@ -1,4 +1,4 @@
-# Práctica Whatsapp - Jorge Rivera Rueda
+# Práctica Tableau - Jorge Rivera Rueda
 
 Práctica de Tableau de la asignatura de Visualización del Máter en Big Data de ICAI.
 
